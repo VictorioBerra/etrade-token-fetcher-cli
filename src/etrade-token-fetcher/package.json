@@ -1,0 +1,23 @@
+{
+  "name": "etrade-token-fetcher",
+  "version": "4.0.1",
+  "description": "Automatically login to etrade, and perform a full authorization to obtain auth tokens.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postversion": "git push --follow-tags"
+  },
+  "keywords": [ "etrade", "automation", "token", "oauth" ],
+  "author": "Victorio Berra",
+  "license": "MIT",
+  "dependencies": {
+    "bhttp": "^1.2.4",
+    "bluebird": "^3.7.1",
+    "debug": "^4.1.1",
+    "lodash": "^4.17.15",
+    "node-exceptions": "^4.0.1",
+    "oauth-1.0a": "^2.2.6",
+    "puppeteer": "^2.0.0"
+  }
+}
