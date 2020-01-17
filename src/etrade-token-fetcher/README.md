@@ -7,7 +7,3 @@ Perform auth operations (/request_token and /access_token) against the ETrade We
 ## Exceptions
 
 This library exports its custom exceptions via `exceptions`.
-
-## Contributing
-
-You can run `npm run refreshVSToken` to login to DevOps to push updates to the artifact.
