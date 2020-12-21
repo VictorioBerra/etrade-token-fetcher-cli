@@ -6,7 +6,8 @@ const exceptions = require("./exceptions");
 
 async function Login(webUsername, webPassword, headless) {
   const browser = await puppeteer.launch({
-    headless: headless
+    headless: headless,
+    args: ['--no-sandbox']
   });
   const page = await browser.newPage();
 
